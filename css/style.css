@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #6ba8a9;
+	font-family: 'DS-Digital';
+}
+.panelTop {
+	width: 325px;
+	height: 15px;
+	margin-bottom: -5px;
+	background-color: #313d42;
+	border-radius: 5px 5px 0 0;
+}
+.contentShell, .content {
+	position: relative;
+	overflow: hidden;
+}
+.contentShell {
+	background-color: #1a272d;
+	border-radius: 40px;
+	padding: 10px;
+}
+.light1, .light2 {
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	background-color: rgba(255, 255, 255, .1);
+	transform: rotate(-21.5deg);
+}
+.light1 {
+	margin: -124px;
+}
+.light2 {
+	margin: -105px;
+}
+.content {
+	width: 400px;
+	text-align: center;
+	border: 3px solid #030b0d;
+	border-radius: 30px;
+	background-color: #2d383e;
+	padding: 20px;
+	font-size: 146px;
+	color: #51dd96;
+	user-select: none;
+}
+.shadow {
+	width: 550px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #588c8a;
+	margin-top: -25px;
+}
+@font-face {
+	font-family: 'DS-Digital';
+	src: url('../fonts/DS-Digital-Bold.eot');
+	src: local('../fonts/DS-Digital Bold'), local('../fonts/DS-Digital-Bold'),
+		url('../fonts/DS-Digital-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DS-Digital-Bold.woff') format('woff'),
+		url('../fonts/DS-Digital-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
