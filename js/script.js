@@ -1,4 +1,4 @@
-let clockField = document.querySelector('.clockField');
+let clockField = document.querySelector('.clock_field');
 clockField.innerHTML = `${getLocalDate()}`;
 
 function getLocalDate() {

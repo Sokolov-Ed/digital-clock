@@ -11,33 +11,33 @@ body {
 	background-color: #6ba8a9;
 	font-family: 'DS-Digital';
 }
-.panelTop {
+.panel_top {
 	width: 325px;
 	height: 15px;
 	margin-bottom: -5px;
 	background-color: #313d42;
 	border-radius: 5px 5px 0 0;
 }
-.contentShell, .content {
+.content_shell, .content {
 	position: relative;
 	overflow: hidden;
 }
-.contentShell {
+.content_shell {
 	background-color: #1a272d;
 	border-radius: 40px;
 	padding: 10px;
 }
-.light1, .light2 {
+.first_light, .second_light {
 	position: absolute;
 	width: 600px;
 	height: 200px;
 	background-color: rgba(255, 255, 255, .1);
 	transform: rotate(-21.5deg);
 }
-.light1 {
+.first_light {
 	margin: -124px;
 }
-.light2 {
+.second_light {
 	margin: -105px;
 }
 .content {
